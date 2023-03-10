@@ -1,0 +1,22 @@
+[
+    {
+        "Country":"Canada",
+        "Currency":"Canadian Dollar (CAD)"
+    },
+    {
+        "Country":"India",
+        "Currency":"Indian Rupee (INR)"
+    },
+    {
+        "Country":"United States",
+        "Currency":"US Dollar (USD)"
+    },
+    {
+        "Country":"Japan",
+        "Currency":"Yen (JPY)"
+    },
+    {
+        "Country": "Russia",
+        "Currency": "Rubble (RUB)"
+    }
+]

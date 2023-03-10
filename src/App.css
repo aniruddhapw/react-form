@@ -1,0 +1,93 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url('https://img.wallpapersafari.com/desktop/1600/900/90/82/rBzqRW.gif');
+  background-size: cover;
+}
+.main-container{
+  margin-left: auto;
+  margin-right: auto;
+  
+  height: 100vh;
+  width: fit-content;
+  background-color: white;
+  padding:10px;
+  
+  display: flex;
+  flex-direction: column;
+}
+.content{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.account_types{
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.p_btn  {
+height: 40px;
+background: none;
+border: none;
+
+border-bottom: solid;
+color: #3f51b5;
+border-color: #3f51b5;
+
+
+
+}
+
+.b_btn  {
+  height: 40px;
+background: none;
+border: none;
+border-bottom: solid;
+color: #3f51b5;
+border-color: #3f51b5;
+  }
+.n_btn{
+  height: 40px;
+
+  margin-left: auto;
+  /* margin-right: auto; */
+  background-color: #3f51b5;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  color: white;
+  display: block;
+}  
+a{
+  text-decoration: none;
+}
+input{
+  height:40px ;
+  outline: none;
+  width: 400px;
+  border: none;
+  padding: 5px;
+border-bottom: solid;
+border-color: #9b9dac;
+
+}
+.bank_btn{
+margin-bottom: 10px;
+
+}
+select{
+  height:40px ;
+  outline: none;
+  width: 400px;
+  border: none;
+  padding: 5px;
+border-bottom: solid;
+border-color: #9b9dac;
+}
