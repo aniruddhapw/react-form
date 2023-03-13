@@ -11,12 +11,13 @@ export default class Home extends Component{
                 </div>
                
                 <form>
-                    <label><input type="text" placeholder="First Name"/></label><br/><br/>
-                    <label><input type="text" placeholder="Last Name"/></label><br/><br/>
-                    <label><input type="text" placeholder="Email"/></label><br/><br/>
-                    <label><input type="number" placeholder="Phone Number"/></label><br/><br/>
+                    <label><input type="text" placeholder="First Name" required/></label><br/><br/>
+                    <label><input type="text" placeholder="Last Name" required/></label><br/><br/>
+                    <label><input type="email" placeholder="Email" required/></label><br/><br/>
+                    <label><input type="number" placeholder="Phone Number" required/></label><br/><br/>
+                    <Link to='/next'><button type='submit' className='n_btn'>NEXT</button></Link>
                 </form>
-                <Link to='/next'><button className='n_btn'>NEXT</button></Link>
+               
                 </div>
                 
             </div>

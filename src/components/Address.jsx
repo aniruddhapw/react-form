@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
+
 export default class Address extends Component{
     handleSubmit(event){
         alert("Thank you! Successfully Submitted");
@@ -8,7 +8,7 @@ export default class Address extends Component{
     render() {
         return(
             <div className='main-container'>
-                <Link to="/address"><button className="a_btn">Address</button></Link>
+            <div className="content">
                 <form onSubmit={this.handleSubmit}>
                   <label>
                       <input type="text" placeholder="Country"/>
@@ -26,8 +26,12 @@ export default class Address extends Component{
                       <input type="text" placeholder="Address"/>
                   </label>
                   <br/><br/>
-                  <button value="submit">Submit</button>
+                  <button className='n_btn' value="submit">Submit</button>
+                  {/* <Link to="/address"><button className="a_btn">Address</button></Link> */}
                 </form> 
+            </div>
+                
+              
             </div>
         )  
     }
